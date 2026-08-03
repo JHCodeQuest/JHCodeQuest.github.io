@@ -155,9 +155,255 @@ footer {
 
     nav ul {
         gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .hero h1 {
         font-size: 2rem;
+    }
+
+    .page-hero h1 {
+        font-size: 2rem;
+    }
+
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ---------- Projects ---------- */
+
+a:focus-visible,
+button:focus-visible {
+    outline: 3px solid #533483;
+    outline-offset: 3px;
+}
+
+header a:focus-visible {
+    outline-color: #fff;
+}
+
+nav a[aria-current="page"] {
+    border-bottom: 2px solid #533483;
+    padding-bottom: 2px;
+}
+
+.page-hero {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.page-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.page-hero p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+}
+
+.filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-bottom: 3rem;
+}
+
+.filter-btn {
+    font: inherit;
+    font-size: 0.95rem;
+    color: #0f3460;
+    background: #f5f5f5;
+    border: 1px solid #e0e0e0;
+    padding: 0.5rem 1.25rem;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.filter-btn:hover {
+    background: #e8e8ef;
+}
+
+.filter-btn.is-active {
+    background: #0f3460;
+    border-color: #0f3460;
+    color: white;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    background: #f5f5f5;
+    border: 1px solid #e8e8e8;
+    border-top: 4px solid #0f3460;
+    padding: 2rem;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card.is-featured {
+    border-top-color: #533483;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(26, 26, 46, 0.12);
+}
+
+.project-head {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.project-head h3 {
+    color: #0f3460;
+    font-size: 1.35rem;
+}
+
+.live-badge {
+    font-size: 0.7rem;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: white;
+    background: #533483;
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+}
+
+.project-meta {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+    min-height: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 0.85rem;
+    color: #5c5c6b;
+}
+
+.lang-dot {
+    display: inline-block;
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+    margin-right: -0.6rem;
+    vertical-align: middle;
+}
+
+.project-blurb {
+    flex-grow: 1;
+    margin-bottom: 1.25rem;
+    color: #444;
+}
+
+.tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    list-style: none;
+    margin-bottom: 1.5rem;
+}
+
+.tag {
+    font-size: 0.8rem;
+    color: #0f3460;
+    background: #e6ebf2;
+    padding: 0.25rem 0.7rem;
+    border-radius: 4px;
+}
+
+.project-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.project-link {
+    display: inline-block;
+    font-size: 0.95rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #0f3460;
+    background: transparent;
+    border: 2px solid #0f3460;
+    padding: 0.5rem 1.25rem;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.project-link:hover {
+    background: #0f3460;
+    color: white;
+}
+
+.project-link.primary {
+    background: #0f3460;
+    color: white;
+}
+
+.project-link.primary:hover {
+    background: #533483;
+    border-color: #533483;
+}
+
+.grid-status,
+.no-results {
+    grid-column: 1 / -1;
+    text-align: center;
+    color: #5c5c6b;
+}
+
+.grid-footnote {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #7a7a88;
+}
+
+/* Home page teaser */
+
+#featured {
+    background: #f9f9f9;
+    text-align: center;
+}
+
+#featured .featured-lead {
+    max-width: 700px;
+    margin: -2rem auto 3rem;
+    font-size: 1.1rem;
+}
+
+#featured .project-card {
+    text-align: left;
+    background: white;
+}
+
+#featured .featured-more {
+    margin-top: 3rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .project-card,
+    .project-card:hover,
+    .service-card,
+    .service-card:hover {
+        transform: none;
+        transition: none;
     }
 }

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - JHCodeQuest</title>
+    <meta name="description" content="Selected work by JHCodeQuest - full-stack web applications, machine learning models and automation tools, with source code on GitHub.">
+    <meta property="og:title" content="Projects - JHCodeQuest">
+    <meta property="og:description" content="Selected work by JHCodeQuest - full-stack web applications, machine learning models and automation tools, with source code on GitHub.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jhcodequest.github.io/projects.html">
+    <meta property="og:image" content="https://jhcodequest.github.io/JHCodeQuest_Logo.png">
+    <meta name="twitter:card" content="summary">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="JHCodeQuest_Logo.png" alt="JHCodeQuest Logo" id="logo-img">
+                <span>JHCodeQuest</span>
+            </div>
+            <ul>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="projects.html" aria-current="page">Projects</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <h1>Projects</h1>
+            <p>A selection of things I have designed, built and shipped &mdash; every one of them open source.</p>
+            <a class="cta-button" href="https://github.com/JHCodeQuest" target="_blank" rel="noopener">View GitHub profile</a>
+        </section>
+
+        <section id="projects">
+            <div class="filter-bar" id="filter-bar" role="group" aria-label="Filter projects by category"></div>
+
+            <div class="project-grid" id="project-grid">
+                <p class="grid-status" id="grid-status">Loading projects&hellip;</p>
+            </div>
+
+            <p class="no-results" id="no-results" hidden>No projects match that filter.</p>
+
+            <p class="grid-footnote">
+                Live star counts and update dates are pulled from the GitHub API when available.
+                <span id="stats-status" aria-live="polite"></span>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 JHCodeQuest. All rights reserved.</p>
+    </footer>
+
+    <script src="projects.js"></script>
+</body>
+</html>

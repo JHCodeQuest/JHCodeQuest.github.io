@@ -1,0 +1,97 @@
+{
+  "user": "JHCodeQuest",
+  "filters": [
+    "Full-stack",
+    "Front-end",
+    "Python",
+    "Machine learning",
+    "Automation",
+    "APIs"
+  ],
+  "projects": [
+    {
+      "repo": "civic-lens",
+      "title": "Civic Lens",
+      "blurb": "A UK politics explainer covering Parliament, general elections, devolution, the party landscape across all four nations, and the terminology that ties it together. Every data-driven page calls a FastAPI backend first and falls back to bundled static data when it is unreachable, so the same build runs full-stack locally and as a static site on Pages.",
+      "tags": ["Next.js 16", "React 19", "TypeScript", "Tailwind v4", "FastAPI", "SQLAlchemy", "Recharts", "Leaflet"],
+      "filters": ["Full-stack", "Front-end", "Python"],
+      "demo": "https://jhcodequest.github.io/civic-lens/",
+      "featured": true
+    },
+    {
+      "repo": "Stock-Assistant-Web",
+      "title": "AI Stock Assistant",
+      "blurb": "Warehouse inventory management with AI image recognition running entirely in the browser — photograph an item and TensorFlow.js matches it against stock, auto-detecting category and SKU prefix. Adds a metrics dashboard, location/SKU search and JWT-authenticated accounts.",
+      "tags": ["React 18", "TypeScript", "TensorFlow.js", "React Query", "Chart.js", "Node/Express", "JWT", "Tailwind"],
+      "filters": ["Full-stack", "Front-end", "Machine learning", "APIs"],
+      "demo": "https://jhcodequest.github.io/Stock-Assistant-Web/",
+      "featured": true
+    },
+    {
+      "repo": "nutritrack",
+      "title": "NutriTrack",
+      "blurb": "A calorie and exercise tracker built as a single-file vanilla JS app with no build step. Scans product barcodes through the camera with Quagga.js and looks nutrition up against the Open Food Facts API, persisting to Firestore with a debounced localStorage fallback so it keeps working offline.",
+      "tags": ["Vanilla JS", "Firebase", "Firestore", "Quagga.js", "Open Food Facts API", "PWA"],
+      "filters": ["Front-end", "APIs"],
+      "demo": "https://jhcodequest.github.io/nutritrack/",
+      "featured": true
+    },
+    {
+      "repo": "HorseRacingPrediction",
+      "title": "Horse Racing Prediction",
+      "blurb": "An XGBoost classifier trained on a decade of UK and Ireland racing data (2015–2025). Split into clean, testable stages — Kaggle dataset loading, feature engineering and cleaning, then model training and evaluation — behind a single config dataclass.",
+      "tags": ["Python", "XGBoost", "pandas", "scikit-learn", "Kaggle"],
+      "filters": ["Python", "Machine learning"],
+      "featured": true
+    },
+    {
+      "repo": "PyFileAutomation",
+      "title": "PyFileAutomation",
+      "blurb": "Takes the RPA approach to a repetitive, rule-based chore: sorts a messy folder into subfolders by file type, with a dry-run mode that previews every move before touching anything, optional file logging, desktop notifications and Discord webhook summaries. Scanner, mover, notifier and logger are separate modules.",
+      "tags": ["Python 3.8+", "CLI", "Discord webhooks", "MIT"],
+      "filters": ["Python", "Automation"],
+      "featured": true
+    },
+    {
+      "repo": "chore-tracker",
+      "title": "Chore Tracker",
+      "blurb": "A mobile-first household chore tracker in a single HTML file — daily and weekly recurring tasks, custom groups, streak counting, and a light/dark theme toggle. No backend, no dependencies; state lives in localStorage.",
+      "tags": ["HTML", "Vanilla JS", "localStorage", "Mobile-first"],
+      "filters": ["Front-end"],
+      "demo": "https://jhcodequest.github.io/chore-tracker/",
+      "featured": true
+    },
+    {
+      "repo": "TrendTracker",
+      "title": "TrendTracker",
+      "blurb": "A Google-Trends-style dashboard for surfacing trending topics and translating raw signal into plain language. React and Vite on the front end, FastAPI serving the data layer with interactive OpenAPI docs.",
+      "tags": ["React", "Vite", "FastAPI", "Python"],
+      "filters": ["Full-stack", "Front-end", "Python", "APIs"],
+      "featured": false
+    },
+    {
+      "repo": "cold-outreach-app",
+      "title": "Cold Outreach Tool",
+      "blurb": "A lightweight bulk email sender for sales outreach: upload a CSV of contacts, personalise templates with {{field}} variables, and drip through Gmail SMTP with an adjustable delay to stay clear of spam filters.",
+      "tags": ["JavaScript", "Node", "Gmail SMTP", "CSV"],
+      "filters": ["Automation", "APIs"],
+      "featured": false
+    },
+    {
+      "repo": "Kaggle-BioHub",
+      "title": "BioHub Cell Tracking",
+      "blurb": "Computer vision work for the BioHub Cell Tracking Kaggle competition, structured as a progression of notebooks — exploration, preprocessing, then a baseline model — over a reusable src package for data loading and visualisation.",
+      "tags": ["Jupyter", "Python", "Computer vision", "Deep learning"],
+      "filters": ["Python", "Machine learning"],
+      "featured": false
+    },
+    {
+      "repo": "Task-Manager-API",
+      "title": "Task Manager API",
+      "blurb": "A task management REST API written in C# on .NET, built to practise the language and its tooling outside the usual JavaScript and Python stack.",
+      "tags": ["C#", ".NET", "REST"],
+      "filters": ["APIs"],
+      "featured": false
+    }
+  ]
+}
