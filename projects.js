@@ -83,6 +83,14 @@
             demo.setAttribute('aria-label', 'Open the live demo of ' + project.title);
             links.appendChild(demo);
         }
+        if (project.video) {
+            var video = el('a', 'project-link' + (project.demo ? '' : ' primary'), 'Watch demo');
+            video.href = project.video;
+            video.target = '_blank';
+            video.rel = 'noopener';
+            video.setAttribute('aria-label', 'Watch a demo video of ' + project.title);
+            links.appendChild(video);
+        }
         var source = el('a', 'project-link', 'Source');
         source.href = 'https://github.com/' + user + '/' + project.repo;
         source.target = '_blank';
