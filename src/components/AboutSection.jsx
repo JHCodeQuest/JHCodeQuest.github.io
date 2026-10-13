@@ -31,7 +31,7 @@ export default function AboutSection() {
           </p>
           <p>
             My background in care work taught me communication, patience, and how to
-            understand what people actually need — skills most developers never develop.
+            understand what people actually need.
             Now I'm applying that perspective to build workflow automation, data pipelines,
             and intelligent tooling with Python and modern web technologies. I'm currently
             expanding into AI-assisted tooling and open-source development.

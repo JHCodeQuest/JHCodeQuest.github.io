@@ -144,7 +144,7 @@
             var parsed = JSON.parse(raw);
             if (!parsed || (Date.now() - parsed.time) > CACHE_TTL) { return null; }
             return parsed.repos;
-        } catch (err) {
+        } catch {
             return null;
         }
     }
@@ -152,7 +152,7 @@
     function writeCache(repos) {
         try {
             window.localStorage.setItem(CACHE_KEY, JSON.stringify({ time: Date.now(), repos: repos }));
-        } catch (err) {
+        } catch {
             // Private browsing or a full quota. Not worth reporting.
         }
     }

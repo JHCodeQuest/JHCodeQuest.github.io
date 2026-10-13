@@ -35,7 +35,7 @@ export default function FeaturedProjectsSection() {
             Featured Projects
           </p>
           <h2 className="text-center font-[var(--font-display)] text-[clamp(2.2rem,4.5vw,3.2rem)] font-bold tracking-[-0.02em]">
-            Milestones Along the Way
+            Practical projects, explained
           </h2>
         </div>
 
@@ -73,7 +73,7 @@ export default function FeaturedProjectsSection() {
                     </span>
                   ))}
                 </div>
-                <div className="flex gap-3">
+                <div className="flex flex-wrap gap-3">
                   {p.github && (
                     <a href={p.github} target="_blank" className="inline-flex items-center justify-center gap-1.5 px-4 py-2 bg-transparent text-[var(--color-text-primary)] border border-[var(--color-border)] font-semibold text-xs rounded-xl no-underline hover:border-[var(--color-accent)] hover:text-[var(--color-accent)] hover:bg-[var(--color-accent-subtle)] transition-all duration-150">
                       View Code

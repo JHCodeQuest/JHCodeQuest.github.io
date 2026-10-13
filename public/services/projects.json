@@ -10,15 +10,6 @@
   ],
   "projects": [
     {
-      "repo": "retention-video",
-      "title": "Narrated Report Videos",
-      "blurb": "Clients rarely read auto-generated PDF reports, so this turns a client retention report into a one-minute narrated walkthrough. It builds a script from the analysis, voices it with ElevenLabs, locates each client's row through the PDF's text layer to zoom in and highlight it under captions, and stitches the result together with ffmpeg. A Slack bot posts the PDF and the finished video together when /client-report runs.",
-      "tags": ["Python", "ElevenLabs API", "ffmpeg", "pdfium", "Pillow", "Slack Bolt", "pytest"],
-      "filters": ["Python", "Automation", "APIs"],
-      "video": "media/retention-video-demo.mp4",
-      "featured": true
-    },
-    {
       "repo": "civic-lens",
       "title": "Civic Lens",
       "blurb": "A UK politics explainer covering Parliament, general elections, devolution, the party landscape across all four nations, and the terminology that ties it together. Every data-driven page calls a FastAPI backend first and falls back to bundled static data when it is unreachable, so the same build runs full-stack locally and as a static site on Pages.",

@@ -7,10 +7,12 @@ export default function ContactSection() {
             Contact
           </p>
           <h2 className="font-[var(--font-display)] text-[clamp(2.2rem,4.5vw,3.2rem)] font-bold tracking-[-0.02em] mb-6">
-            Let's Connect
+            Tell me about the task
           </h2>
           <p className="text-[var(--color-text-secondary)] text-lg max-w-[500px] mx-auto mb-10">
-            I'm open to opportunities and collaborations. Whether you have a project in mind or just want to connect — reach out.
+            Email a short description of the problem, the result you need and your deadline.
+            For automation work, an anonymised sample input and example output help me scope it.
+            I'm also open to agency subcontracting and developer contract opportunities.
           </p>
           <a href="mailto:jkhassan95@gmail.com" className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-[var(--color-accent)] text-[var(--color-bg-deep)] font-semibold text-lg rounded-xl no-underline hover:glow-md transition-all duration-150">
             📧 jkhassan95@gmail.com
