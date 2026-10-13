@@ -24,17 +24,16 @@ export default function AboutSection() {
 
         <div className="max-w-[720px] mx-auto space-y-6 text-[var(--color-text-secondary)] text-lg leading-relaxed">
           <p>
-            I'm a developer focused on automation, data-driven applications, and practical
-            software solutions. With a BSc in Computer Science and years building enterprise
-            software at Somerset Council and Origin, I've shipped ASP.NET applications,
-            SQL-backed systems, and Power Platform and Dynamics 365 deployments.
+            I'm a software and Power Platform developer with a BSc in Computer Science
+            and over four years of professional experience delivering business applications
+            and automation in local government. My work includes Canvas and Model-Driven
+            Power Apps, Power Automate flows, Dataverse, ASP.NET applications and SQL reporting.
           </p>
           <p>
-            My background in care work taught me communication, patience, and how to
-            understand what people actually need.
-            Now I'm applying that perspective to build workflow automation, data pipelines,
-            and intelligent tooling with Python and modern web technologies. I'm currently
-            expanding into AI-assisted tooling and open-source development.
+            I gather requirements, explain technical choices, document solutions and support
+            users after launch. I also have experience with Dynamics 365 Finance &amp;
+            Operations and SSRS reporting. My independent projects explore Python automation,
+            API integrations and JavaScript web applications.
           </p>
         </div>
       </div>

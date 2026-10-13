@@ -1,19 +1,19 @@
 const skillGroups = [
   {
-    label: 'Automation',
-    items: ['Power Platform', 'Power Automate'],
+    label: 'Microsoft & automation',
+    items: ['Power Apps', 'Power Automate', 'Dataverse', 'Microsoft 365'],
   },
   {
     label: 'Backend',
-    items: ['Python', 'APIs', 'SQL'],
+    items: ['Python', 'C# / .NET', 'SQL', 'API integrations'],
   },
   {
     label: 'Frontend',
-    items: ['React'],
+    items: ['JavaScript', 'TypeScript', 'React', 'HTML / CSS'],
   },
   {
-    label: 'Tools',
-    items: ['Git / GitHub'],
+    label: 'Delivery & support',
+    items: ['Requirements gathering', 'User acceptance testing', 'Documentation', 'Git / GitHub'],
   },
 ]
 
@@ -26,13 +26,13 @@ export default function SkillsSection() {
             Skills
           </p>
           <h2 className="text-center font-[var(--font-display)] text-[clamp(2.2rem,4.5vw,3.2rem)] font-bold tracking-[-0.02em]">
-            Tools I've Gathered
+            Skills I bring to your project
           </h2>
         </div>
 
         <p className="text-center text-[var(--color-text-secondary)] max-w-[600px] mx-auto mb-12 leading-relaxed">
-          Every tool here is something I've picked up building real projects —
-          from enterprise systems to automation scripts. I've shipped with every one of them.
+          My professional background centres on Microsoft business applications and automation.
+          Independent projects extend that experience into Python and modern web development.
         </p>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-[900px] mx-auto">

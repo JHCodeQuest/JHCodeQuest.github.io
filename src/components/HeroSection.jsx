@@ -4,18 +4,18 @@ export default function HeroSection() {
       <div className="max-w-[1400px] mx-auto w-full text-center">
         <div className="inline-flex items-center gap-2 px-4 py-2 bg-[var(--color-accent-subtle)] border border-[var(--color-border-accent)] rounded-full font-[var(--font-mono)] text-sm text-[var(--color-accent)] mb-8">
           <span className="w-2 h-2 bg-[var(--color-accent)] rounded-full animate-pulse" />
-          Python · JavaScript · Power Platform
+          Power Platform · Python · JavaScript
         </div>
         <h1 className="font-[var(--font-display)] text-[clamp(2.5rem,6vw,4.5rem)] font-extrabold leading-[1.05] tracking-[-0.03em] mb-3">
           <span className="block">Joseph Hassan</span>
         </h1>
         <p className="text-lg sm:text-xl text-[var(--color-text-secondary)] mb-4">
-          I automate reporting and repetitive tasks, and build practical web tools.
+          Business applications and automation, built around the way you work.
         </p>
         <p className="text-xl sm:text-2xl text-[var(--color-text-secondary)] max-w-[650px] mx-auto mb-12 leading-relaxed">
-          Python scripts, API integrations and JavaScript fixes for businesses and agencies.
-          My background includes enterprise software at Somerset Council and Origin.
-          Tell me what you need to change, and I'll help define a manageable first task.
+          Over four years of professional Power Platform experience, alongside Python,
+          JavaScript and .NET development. I help with business apps, reporting,
+          workflow fixes and integrations — from requirements to handover.
         </p>
         <div className="flex gap-4 flex-wrap justify-center">
           <a href="#contact" className="inline-flex items-center justify-center gap-2 px-7 py-3.5 bg-[var(--color-accent)] text-[var(--color-bg-deep)] font-semibold rounded-xl no-underline hover:-translate-y-0.5 hover:glow-md transition-all duration-150">
