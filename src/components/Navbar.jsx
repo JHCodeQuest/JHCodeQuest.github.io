@@ -6,6 +6,7 @@ const navLinks = [
   { href: '#skills', label: 'Skills' },
   { href: '#learning', label: 'Learning' },
   { href: '#contact', label: 'Contact' },
+  { href: '/services/', label: 'Services' },
 ]
 
 function useTheme() {
