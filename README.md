@@ -59,3 +59,35 @@ You may not use, share, or modify the content without express permission.
 
 For more details, visit:  
 [https://creativecommons.org/licenses/by-nd/4.0/](https://creativecommons.org/licenses/by-nd/4.0/)
+
+## 🗂 Repository structure
+
+This repo serves **https://jhcodequest.github.io/** and holds two sites:
+
+| Path | Served at | What it is |
+| --- | --- | --- |
+| `src/`, `index.html` | `/` | This portfolio — Vite + React + Tailwind |
+| `public/services/` | `/services/` | Freelance ICT services site (plain HTML/CSS/JS) |
+
+Anything in `public/` is copied to the build root as-is, which is how
+`/services/` is published without a build step of its own.
+
+### Local development
+
+```bash
+npm ci
+npm run dev     # dev server
+npm run build   # production build into dist/
+```
+
+### Deployment
+
+`.github/workflows/deploy.yml` builds on every push to `main` and publishes
+`dist/` to GitHub Pages. It can also be run manually from the Actions tab.
+
+### History
+
+This repo is the result of merging the former `JHPortfolio` repository in with
+its full commit history. `JHPortfolio` is retained only to redirect old
+`/JHPortfolio/` links here. The separate `jhcodequest` repo is unrelated — it is
+the GitHub profile README.
