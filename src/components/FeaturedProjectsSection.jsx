@@ -89,6 +89,13 @@ export default function FeaturedProjectsSection() {
             </div>
           ))}
         </div>
+        <p className="text-center text-sm text-[var(--color-text-secondary)] mt-8">
+          Learning project: {' '}
+          <a href="https://github.com/JHCodeQuest/personal-expense-tracker" target="_blank" rel="noopener noreferrer" className="text-[var(--color-accent)] underline underline-offset-4">
+            Python CLI Expense Tracker
+          </a>
+          {' '}— CSV persistence, input validation and Decimal calculations.
+        </p>
       </div>
     </section>
   )

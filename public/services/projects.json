@@ -10,6 +10,14 @@
   ],
   "projects": [
     {
+      "repo": "personal-expense-tracker",
+      "title": "Python CLI Expense Tracker",
+      "blurb": "A Python learning project for recording expenses in the terminal, filtering by category and calculating totals using Decimal. Saves records to CSV and validates date and amount input. See the README for storage and backup limitations.",
+      "tags": ["Python", "CLI", "CSV", "Decimal"],
+      "filters": ["Python"],
+      "featured": false
+    },
+    {
       "repo": "civic-lens",
       "title": "Civic Lens",
       "blurb": "A UK politics explainer covering Parliament, general elections, devolution, the party landscape across all four nations, and the terminology that ties it together. Every data-driven page calls a FastAPI backend first and falls back to bundled static data when it is unreachable, so the same build runs full-stack locally and as a static site on Pages.",
