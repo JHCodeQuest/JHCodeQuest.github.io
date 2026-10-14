@@ -1,5 +1,15 @@
 const featured = [
   {
+    icon: '£',
+    title: 'Expense Tracker',
+    description: 'A Python learning project for recording expenses, filtering categories and calculating totals. Try the browser adaptation with synthetic sample data, then explore the original CLI source.',
+    tags: ['Python CLI', 'CSV', 'Browser demo'],
+    screenshot: 'screenshots/expense-tracker.svg',
+    imageAlt: 'Expense Tracker preview with synthetic sample expenses',
+    github: 'https://github.com/JHCodeQuest/personal-expense-tracker',
+    link: '/?demo=expenses',
+  },
+  {
     icon: '\u{1F5F3}\uFE0F',
     title: 'Civic Lens',
     description: 'Built to track UK election trends using public polling data and prediction modelling. Helps analysts and voters understand where the race is heading.',
@@ -48,7 +58,7 @@ export default function FeaturedProjectsSection() {
               <a href={p.link || p.github} target="_blank" className="block overflow-hidden">
                 <img
                   src={p.screenshot}
-                  alt={`${p.title} screenshot`}
+                  alt={p.imageAlt || `${p.title} screenshot`}
                   className="w-full aspect-[16/10] object-cover object-top border-b border-[var(--color-border)] transition-transform duration-300 hover:scale-105"
                   loading="lazy"
                 />
@@ -89,13 +99,6 @@ export default function FeaturedProjectsSection() {
             </div>
           ))}
         </div>
-        <p className="text-center text-sm text-[var(--color-text-secondary)] mt-8">
-          Learning project: {' '}
-          <a href="https://github.com/JHCodeQuest/personal-expense-tracker" target="_blank" rel="noopener noreferrer" className="text-[var(--color-accent)] underline underline-offset-4">
-            Python CLI Expense Tracker
-          </a>
-          {' '}— CSV persistence, input validation and Decimal calculations.
-        </p>
       </div>
     </section>
   )

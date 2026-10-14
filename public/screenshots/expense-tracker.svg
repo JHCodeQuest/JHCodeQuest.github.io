@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-labelledby="title">
+  <title id="title">Expense Tracker demo preview with synthetic expenses</title>
+  <rect width="800" height="500" fill="#0a0a0f"/>
+  <g font-family="Arial,sans-serif">
+    <text x="44" y="58" fill="#00f0ff" font-size="15" letter-spacing="3">LEARNING PROJECT · BROWSER DEMO</text>
+    <text x="44" y="112" fill="#f8fafc" font-size="38" font-weight="bold">Expense Tracker</text>
+    <rect x="44" y="146" width="712" height="112" rx="16" fill="#102b30"/>
+    <text x="68" y="181" fill="#bac6d6" font-size="17">Total sample expenses</text>
+    <text x="68" y="233" fill="#00f0ff" font-size="42" font-weight="bold">£39.15</text>
+    <g fill="#bac6d6" font-size="17">
+      <text x="60" y="300">DESCRIPTION</text><text x="430" y="300">CATEGORY</text><text x="650" y="300">AMOUNT</text>
+      <text x="60" y="345">Sample weekly groceries</text><text x="430" y="345">Food</text><text x="650" y="345">£28.40</text>
+      <text x="60" y="390">Sample bus ticket</text><text x="430" y="390">Travel</text><text x="650" y="390">£4.50</text>
+      <text x="60" y="435">Sample notebook</text><text x="430" y="435">Learning</text><text x="650" y="435">£6.25</text>
+    </g>
+    <path d="M44 315H756M44 360H756M44 405H756M44 450H756" stroke="#283340"/>
+  </g>
+</svg>

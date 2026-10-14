@@ -6,8 +6,12 @@ import SkillsSection from './components/SkillsSection'
 import LearningJourneySection from './components/LearningJourneySection'
 import ContactSection from './components/ContactSection'
 import Footer from './components/Footer'
+import { ExpenseTrackerDemo } from './components/ExpenseTrackerDemo'
 
 function App() {
+  if (new URLSearchParams(window.location.search).get('demo') === 'expenses') {
+    return <ExpenseTrackerDemo />
+  }
   return (
     <>
       <div className="bg-grid" />

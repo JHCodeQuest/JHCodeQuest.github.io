@@ -15,7 +15,8 @@
       "blurb": "A Python learning project for recording expenses in the terminal, filtering by category and calculating totals using Decimal. Saves records to CSV and validates date and amount input. See the README for storage and backup limitations.",
       "tags": ["Python", "CLI", "CSV", "Decimal"],
       "filters": ["Python"],
-      "featured": false
+      "demo": "https://jhcodequest.github.io/?demo=expenses",
+      "featured": true
     },
     {
       "repo": "civic-lens",
