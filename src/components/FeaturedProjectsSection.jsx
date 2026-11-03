@@ -12,8 +12,8 @@ const featured = [
   {
     icon: '\u{1F5F3}\uFE0F',
     title: 'Civic Lens',
-    description: 'Built to track UK election trends using public polling data and prediction modelling. Helps analysts and voters understand where the race is heading.',
-    tags: ['React', 'TypeScript', 'GitHub Pages'],
+    description: 'A plain-language guide to UK politics: Parliament, elections, parties and devolution across all four nations. A FastAPI backend with bundled fallback data, so one build also runs as a static site.',
+    tags: ['Next.js', 'TypeScript', 'FastAPI'],
     screenshot: 'screenshots/civic-lens-full.png',
     github: 'https://github.com/JHCodeQuest/civic-lens',
     link: 'https://jhcodequest.github.io/civic-lens/',
@@ -22,9 +22,8 @@ const featured = [
     icon: '\u2699\uFE0F',
     title: 'Automation Dashboard',
     description: 'Built to centralise automation experiments and Power Platform integrations into a single workflow dashboard — replacing scattered scripts with one place to monitor and manage. Designed for developers who need visibility into their automation pipelines.',
-    tags: ['Python', 'FastAPI', 'SQLite'],
+    tags: ['Python', 'FastAPI', 'SQLite', 'Private code'],
     screenshot: 'screenshots/automation-dashboard.png',
-    github: 'https://github.com/JHCodeQuest/Automation-Dashboard',
   },
   {
     icon: '\u{1F9E0}',

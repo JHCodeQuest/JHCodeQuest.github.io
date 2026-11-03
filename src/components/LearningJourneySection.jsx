@@ -17,16 +17,16 @@ export default function LearningJourneySection() {
             <h3 className="font-[var(--font-display)] text-xl mb-3">Currently Learning</h3>
             <ul className="space-y-2">
               <li className="text-[var(--color-text-secondary)] pl-5 relative before:content-['→'] before:absolute before:left-0 before:text-[var(--color-accent)]">
-                Python automation and scripting patterns
+                LLM evaluation, batching and cost control in production
               </li>
               <li className="text-[var(--color-text-secondary)] pl-5 relative before:content-['→'] before:absolute before:left-0 before:text-[var(--color-accent)]">
-                FastAPI for building lightweight backends
+                AI coding agents: Claude Code, Codex and OpenCode
               </li>
               <li className="text-[var(--color-text-secondary)] pl-5 relative before:content-['→'] before:absolute before:left-0 before:text-[var(--color-accent)]">
-                Data pipelines and API integration
+                Astro and Cloudflare Workers
               </li>
               <li className="text-[var(--color-text-secondary)] pl-5 relative before:content-['→'] before:absolute before:left-0 before:text-[var(--color-accent)]">
-                Cloud-native deployment and CI/CD
+                Security scanning in CI: Semgrep, gitleaks and Trivy
               </li>
             </ul>
           </div>
@@ -36,16 +36,16 @@ export default function LearningJourneySection() {
             <h3 className="font-[var(--font-display)] text-xl mb-3">Currently Building</h3>
             <ul className="space-y-2">
               <li className="text-[var(--color-text-secondary)] pl-5 relative before:content-['→'] before:absolute before:left-0 before:text-[var(--color-accent)]">
-                Civic Lens — political prediction engine
+                AI tooling with Python, the Claude API and Slack for a B2B lead-generation agency
               </li>
               <li className="text-[var(--color-text-secondary)] pl-5 relative before:content-['→'] before:absolute before:left-0 before:text-[var(--color-accent)]">
                 Python automation tools for real-world workflows
               </li>
               <li className="text-[var(--color-text-secondary)] pl-5 relative before:content-['→'] before:absolute before:left-0 before:text-[var(--color-accent)]">
-                Open-source portfolio redesign (you're looking at it)
+                A new portfolio site with Astro and Cloudflare Workers
               </li>
               <li className="text-[var(--color-text-secondary)] pl-5 relative before:content-['→'] before:absolute before:left-0 before:text-[var(--color-accent)]">
-                Automation Dashboard with Python + FastAPI
+                Civic Lens, a plain-language guide to UK politics
               </li>
             </ul>
           </div>

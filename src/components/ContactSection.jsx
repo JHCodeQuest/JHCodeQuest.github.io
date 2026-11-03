@@ -14,8 +14,8 @@ export default function ContactSection() {
             For automation work, an anonymised sample input and example output help me scope it.
             I'm also open to agency subcontracting and developer contract opportunities.
           </p>
-          <a href="mailto:jkhassan95@gmail.com" className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-[var(--color-accent)] text-[var(--color-bg-deep)] font-semibold text-lg rounded-xl no-underline hover:glow-md transition-all duration-150">
-            📧 jkhassan95@gmail.com
+          <a href="mailto:JhCodeQuest@protonmail.com" className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-[var(--color-accent)] text-[var(--color-bg-deep)] font-semibold text-lg rounded-xl no-underline hover:glow-md transition-all duration-150">
+            📧 JhCodeQuest@protonmail.com
           </a>
         </div>
         <div className="flex justify-center gap-6">
@@ -25,7 +25,7 @@ export default function ContactSection() {
           <a href="https://www.linkedin.com/in/joseph-hassan-8679ba17/" target="_blank" className="text-[var(--color-text-muted)] hover:text-[var(--color-accent)] transition-all duration-150 text-sm font-medium no-underline">
             LinkedIn
           </a>
-          <a href="JoeCV_Developer.pdf" download className="text-[var(--color-text-muted)] hover:text-[var(--color-accent)] transition-all duration-150 text-sm font-medium no-underline">
+          <a href="Joseph-Hassan-CV.pdf" download className="text-[var(--color-text-muted)] hover:text-[var(--color-accent)] transition-all duration-150 text-sm font-medium no-underline">
             Download CV
           </a>
         </div>
