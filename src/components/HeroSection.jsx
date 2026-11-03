@@ -1,7 +1,12 @@
+import NewSiteNotice from './NewSiteNotice'
+
 export default function HeroSection() {
   return (
     <section className="min-h-screen flex items-center relative z-10 px-4 sm:px-8 pt-32 pb-16">
       <div className="max-w-[1400px] mx-auto w-full text-center">
+        <div>
+          <NewSiteNotice />
+        </div>
         <div className="inline-flex items-center gap-2 px-4 py-2 bg-[var(--color-accent-subtle)] border border-[var(--color-border-accent)] rounded-full font-[var(--font-mono)] text-sm text-[var(--color-accent)] mb-8">
           <span className="w-2 h-2 bg-[var(--color-accent)] rounded-full animate-pulse" />
           Power Platform · Python · JavaScript
