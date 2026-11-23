@@ -19,11 +19,13 @@ const featured = [
     link: 'https://jhcodequest.github.io/civic-lens/',
   },
   {
-    icon: '\u2699\uFE0F',
-    title: 'Automation Dashboard',
-    description: 'Built to centralise automation experiments and Power Platform integrations into a single workflow dashboard — replacing scattered scripts with one place to monitor and manage. Designed for developers who need visibility into their automation pipelines.',
-    tags: ['Python', 'FastAPI', 'SQLite', 'Private code'],
-    screenshot: 'screenshots/automation-dashboard.png',
+    icon: '\u{1F4D6}',
+    title: 'Bookvox',
+    description: 'A maintained audiobook generator that converts EPUB ebooks into natural-sounding M4B audiobooks using Kokoro text-to-speech. Includes a graphical interface, command-line tools, GPU acceleration and support for Windows, Linux and macOS.',
+    tags: ['Python', 'Kokoro TTS', 'PyTorch', 'GUI'],
+    screenshot: 'screenshots/bookvox.png',
+    imageAlt: 'Bookvox graphical interface on macOS',
+    github: 'https://github.com/JHCodeQuest/bookvox',
   },
   {
     icon: '\u{1F9E0}',
